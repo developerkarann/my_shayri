@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo img {
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.logo{
+    width: 5%;
+    padding: 3px 30px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+    display: flex;
+    width: 70%;
+}
+.navbar ul li{
+    padding: 18px 40px;
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.right-nav{
+    width: 30%;
+    text-align: right;
+    padding: 0 5px;
+}
+#search{
+    padding: 5px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.btn{
+    padding: 5px;
+    border-radius: 12px;
+    background: none;
+    color: white;
+}
+.background-bg{
+    background: rgba(0, 0, 0, 0.7) url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section{
+    height: 80vh;
+}
+.box-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    height: 80%;
+    margin: auto;
+    flex-direction: column-reverse;
+    font-size: 30px;
+}
+.second img{
+width: 200px;
+}
+.text-big{
+    padding: 50px;
+    text-decoration: underline;
+}
+.contant{
+    padding: 20px 0;
+}
+.status{
+    display: flex;
+    max-width: 55%;
+    height: 30vh;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgb(233, 233, 240);
+}
+.text{
+    display: flex;
+align-items: center;
+margin: auto;
+font-size: 25px;
+max-width: 90%;
+}
+
+.foot{
+    color: white;
+    align-items: center;
+    justify-content: center;
+display: flex;
+margin: auto;
+height: 7vh;
+}
+.no{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.num{
+    display: flex;
+    padding: 0 10px;
+
+}
+.num a{
+    text-decoration: none;
+    border: 1px solid black;
+padding: 0 15px;
+}
+
+
+.container{
+    width: 100%;
+    height: 10vh;
+}
+.log{
+    
+    text-align: center;
+    align-items: center;
+}
+.log a img{
+padding: 10px 20px;
+}
