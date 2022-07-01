@@ -141,3 +141,30 @@ padding: 0 15px;
 .log a img{
 padding: 10px 20px;
 }
+
+span:before{
+    content:'';
+    animation: animate infinite 5s;
+}
+
+@keyframes animate{
+    0%{
+        content: 'Freelancer';
+    }
+    20%{
+        content:'Marketer';
+    }
+    40%{
+        content:'designer';
+    }
+    60%{
+        content:'Developer';
+    }
+    80%{
+        content:'Photographer';
+    }
+    100%{
+        content:'Freelancer';
+    }
+   
+}
